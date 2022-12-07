@@ -1,4 +1,4 @@
-# Function to print the required pattern
+# Function to print the required pattern as matrix
 def Pattern(n):
      
     # arr[][] will store the pattern matrix
@@ -17,8 +17,7 @@ def Pattern(n):
             row  -= 1
             col  += 1
      
-    # Store the values for lower triangle
-    # of the pattern
+    # Store the values for lower triangle of the pattern
     for k in range(1, dimen, 1):
         col = k
         row = dimen - 1
