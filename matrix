@@ -1,5 +1,5 @@
 # Function to print the required pattern as matrix
-def Pattern(n):
+def Pattern(dimen):
      
     # arr[][] will store the pattern matrix
     arr = [[0 for row in range(dimen)]
