@@ -23,7 +23,7 @@ def Pattern(dimen):
         row = dimen - 1
         f = k
         while (row >= f):
-            arr[row][j] = value
+            arr[row][col] = value
             value += 1
             row -= 1
             col += 1
